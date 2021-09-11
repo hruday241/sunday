@@ -64,10 +64,6 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework</groupId>
-                <artifactId>springloaded</artifactId>
-                <dependencies>
-                    <dependency>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
 						<configuration>
@@ -76,7 +72,7 @@
                         <version>${spring-loaded.version}</version>
 						</configuration>
                     </dependency>
-                </dependencies>
+                </dependenccies>
             </plugin>
         </plugins>
     </build>
