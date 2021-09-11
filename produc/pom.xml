@@ -64,7 +64,7 @@
     <build>
         <plugins>
             <plugin>
-			      <dependenccies>
+			      <dependencies>
 				     <dependency>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
@@ -74,7 +74,7 @@
                         <version>${spring-loaded.version}</version>
 						</configuration>
                     </dependency>
-                </dependenccies>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
